@@ -60,15 +60,18 @@ iframe {
 }
 
 .play-icon {
-      height: 100px;
-    width: 100px;
+      height: 50px;
+    width: 50px;
     border-radius: 50%;
     background: #1DB954;
-    margin-right: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .play-icon img {
-    height: 100px;
+    height: 50px;
 }
 
 table a {
@@ -77,4 +80,5 @@ table a {
 }
 table a div {
   font-size: 1rem;
+  margin-bottom: 5px;
 }
