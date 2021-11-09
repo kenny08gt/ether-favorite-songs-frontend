@@ -63,7 +63,7 @@ class App extends React.Component {
         songs.forEach((song) => {
           // console.log(data);
           getPreview(song.url).then((preview) => {
-            console.log(preview);
+            // console.log(preview);
             songsCleaned.unshift({
               contributor: song.contributor,
               timestamp: new Date(song.timestamp * 1000).toLocaleDateString(
