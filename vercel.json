@@ -22,7 +22,7 @@
             ]
         },
         {
-            "source": "https://embed.spotify.com/(.*)",
+            "source": "embed.spotify.com/(.*)",
             "headers": [
                 {
                     "key": "Access-Control-Allow-Credentials",
